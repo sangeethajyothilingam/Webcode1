@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    background:rgb(245, 245, 186);
+}
+body{
+    background-color: chartreuse;
+    width:950px;
+    text-align: center;
+    padding: 50px;
+    border:50px;
+    margin:20px auto;
+
+}
+
+.row{
+    background-color:rgb(216, 248, 248);
+    text-align: center;
+    border: 3px solid black;
+    padding: 60px 5px;
+    margin: 30px auto;
+    width: 800px;
+}
+.column{
+    padding: 50px;
+    margin: 400px;
+}
+
+.main1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+h1{
+        text-shadow: 2px 2px;
+        color: red;
+} 
